@@ -1,0 +1,1 @@
+export const backgroundColorDark = '#141414'
