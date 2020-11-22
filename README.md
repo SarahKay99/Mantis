@@ -8,7 +8,7 @@ Manually forked from the Ocean Marketplace.
 
 ```
 git clone https://github.com/SarahKay99/Mantis.git
-cd mantis
+cd Mantis
 npm install
 npm start
 ```
