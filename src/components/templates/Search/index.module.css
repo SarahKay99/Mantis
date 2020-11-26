@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+}
+
+@media (min-width: 55rem) {
+  .grid {
+    grid-column-gap: calc(var(--spacer) * 3);
+    /* grid-template-columns: minmax(0, 3fr) 1fr; */
+    grid-template-areas:
+      'search'
+      'results';
+  }
+
+  .search {
+    grid-area: search;
+  }
+
+  .results {
+    grid-area: results;
+  }
+}

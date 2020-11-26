@@ -1,0 +1,4 @@
+.empty {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+}
