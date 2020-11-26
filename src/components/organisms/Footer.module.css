@@ -1,0 +1,29 @@
+.footer {
+  color: var(--brand-grey-light);
+  font-size: var(--font-size-small);
+  text-align: center;
+}
+
+.content {
+  padding: var(--spacer) calc(var(--spacer) / 2);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--layout-max-width);
+}
+
+.content p {
+  display: inline;
+}
+
+.content a {
+  color: inherit;
+}
+
+.content a:hover,
+.content a:focus {
+  color: var(--color-primary);
+}
+
+.copyright div {
+  display: inline-block;
+}

@@ -1,0 +1,10 @@
+.form {
+  composes: box from '../../atoms/Box.module.css';
+  margin-bottom: var(--spacer);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

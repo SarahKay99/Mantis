@@ -1,0 +1,36 @@
+{
+  "siteMetadata": {
+    "edges": [
+      {
+        "node": {
+          "childContentJson": {
+            "site": {
+              "siteTitle": "Ocean Market",
+              "siteTagline": "A marketplace to find and publish open data sets in the Ocean Network.",
+              "siteUrl": "",
+              "siteIcon": "",
+              "siteImage": {
+                "childImageSharp": {
+                  "original": {
+                    "src": ""
+                  }
+                }
+              },
+              "copyright": "All Rights Reserved. Powered by [Ocean Protocol](https://oceanprotocol.com)",
+              "menu": [
+                {
+                  "name": "Publish",
+                  "link": "/publish"
+                },
+                {
+                  "name": "History",
+                  "link": "/history"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

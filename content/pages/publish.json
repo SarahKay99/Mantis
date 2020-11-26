@@ -1,0 +1,20 @@
+{
+  "title": "",
+  "description": "",
+  "warning": "",
+  "form": {
+    "title": "",
+    "data": [
+          {
+        "name": "tags",
+        "label": "",
+        "placeholder": "",
+        "help": "",
+        "type": "",
+        "options": "",
+        "required": true
+      }
+    ],
+    "success": "Asset Created!"
+  }
+}

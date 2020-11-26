@@ -1,0 +1,65 @@
+.teaser {
+  max-width: 50rem;
+  height: 100%;
+}
+
+.link {
+  composes: box from '../atoms/Box.module.css';
+  font-size: var(--font-size-small);
+  height: 100%;
+  color: var(--color-secondary);
+  position: relative;
+  /* for sticking footer to bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: calc(var(--spacer) / 2);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+
+  /* for sticking footer to bottom */
+  flex: 1;
+}
+
+.content p {
+  margin-bottom: calc(var(--spacer) / 4);
+}
+
+.title {
+  line-height: 1.3 !important;
+  font-size: var(--font-size-large);
+  margin-top: calc(var(--spacer) / 12);
+  margin-bottom: 0;
+}
+
+.partner {
+  font-size: var(--font-size-small);
+  margin-top: calc(var(--spacer) / 8);
+}
+
+.foot {
+  margin-top: calc(var(--spacer) / 4);
+}
+
+.foot p {
+  margin: 0;
+}
+
+.accessLabel {
+  font-size: var(--font-size-mini);
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--brand-black);
+  background: var(--brand-grey-lighter);
+  padding: 0.2rem 0.5rem;
+  border-bottom-left-radius: var(--border-radius);
+}
+
+.symbol {
+  display: block;
+}

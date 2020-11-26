@@ -1,0 +1,34 @@
+.grid {
+  display: grid;
+  gap: calc(var(--spacer) * 1.5);
+  position: relative;
+}
+
+@media (min-width: 55rem) {
+  .grid {
+    /* lazy golden ratio */
+    grid-template-columns: 1.618fr 1fr;
+  }
+
+  .sticky {
+    position: sticky;
+    top: var(--spacer);
+  }
+}
+
+.content {
+  margin-top: var(--spacer);
+}
+
+.section {
+  margin-top: calc(var(--spacer) * 1.5);
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: var(--font-size-h3);
+  margin-bottom: calc(var(--spacer) / 2);
+}
