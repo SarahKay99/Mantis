@@ -1,10 +1,19 @@
-import {
-  Metadata,
-  File,
-  AdditionalInformation,
-  ServiceMetadata
-} from '@oceanprotocol/lib'
+import { AdditionalInformation, File, Metadata, ServiceMetadata } from '@oceanprotocol/lib'
 import { DataTokenOptions, PriceOptions } from '@oceanprotocol/react'
+
+// TODO
+// [1] Look into @oceanprotocol/lib and @oceanprotocol/react on oceanprotocol site.
+
+export interface PhotoData {
+  photo: Uint8Array
+  uploaded_by: string
+  timestamp: Date
+  tags: string[]
+  other: any
+}
+export interface Photo extends Metadata {
+  photo: PhotoData
+}
 
 export interface AdditionalInformationMarket extends AdditionalInformation {
   links?: File[]

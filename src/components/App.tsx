@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import PhotoUpload from './organisms/PhotoUpload'
 import Footer from './organisms/Footer'
 import Header from './organisms/Header'
 import Styles from '../global/Styles'
@@ -37,6 +38,8 @@ export default function App({
             state="error"
           />
         )}
+
+        <PhotoUpload />
 
         <main className={styles.main}>{children}</main>
         <Footer />
